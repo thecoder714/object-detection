@@ -2,7 +2,7 @@ var img = "";
 objects = [];
 var level = false;
 
-function preload() {img = loadImage('bottle.jpg');}
+function preload() {img = loadImage('globe.jpg');}
 
 function setup() {
     canvas = createCanvas(380, 380);
