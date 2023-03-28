@@ -1,11 +1,12 @@
 body {
-    background-image: url("backgroundimage.jpeg");
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    color: black;
     background-size: cover;
     font-family: 'Noto Sans', sans-serif;
 }
-
-.buttons {
-    background-color: #4CAF50; /* Green */
+button {
+    background-color: black; 
     border: none;
     border-radius: 5px;
     color: white;
@@ -13,10 +14,4 @@ body {
     display: inline-block;
     font-size: 16px;
     transition-duration: 0.4s;
-}
-  
-.buttons:hover {
-    background-color: white; /* Green */
-    color: #4CAF50;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
